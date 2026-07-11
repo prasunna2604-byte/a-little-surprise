@@ -93,6 +93,8 @@ galleryBtn.onclick=function(){
 
     screen5.style.display="flex";
 
+}
+
 finalBtn.onclick=function(){
 
     screen5.style.display="none";
@@ -100,9 +102,6 @@ finalBtn.onclick=function(){
     screen6.style.display="flex";
 
     createConfetti();
-
-}
-
 }
 
 

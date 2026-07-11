@@ -7,7 +7,8 @@
 body{
     font-family:'Poppins',sans-serif;
     background:linear-gradient(135deg,#FFE5EC,#FFF8E7,#E8DAFF);
-    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y:auto;
 }
 
 /* Welcome Section */
@@ -194,8 +195,12 @@ button:hover{
     padding-left:15px;
 }
 .gallery-card{
-    width:90%;
+    width:95%;
     max-width:900px;
+}
+.card{
+    width:90%;
+    max-width:450px;
 }
 
 .gallery{
@@ -306,10 +311,11 @@ animation:fadeIn 2s;
 }
 section{
     width:100%;
-    height:100vh;
+    min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
+    padding:30px 15px;
 }
 
 .hidden{
